@@ -5,7 +5,7 @@ export const createRole = async (req, res, next)=> {
         if(req.body.role && req.body.role !== '') {
             const newRole = new Role(req.body);
             await newRole.save();
-            return res.send("Role created!");
+            return res.send("Role created !");
         } else {
             return res.status(400).send("Bad Request");
         }

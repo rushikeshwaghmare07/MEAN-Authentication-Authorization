@@ -9,7 +9,7 @@ router.post('/create', createRole);
 //Update role in DB
 router.put('/update/:id', updateRole)
 
-// Get all the role from DB
+// Get all the role from DB 
 router.get('/getAll', getAllRoles)
 
 // Delete the role from DB

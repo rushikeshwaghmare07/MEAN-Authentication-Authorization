@@ -13,7 +13,6 @@ import { confirmPasswordValidator } from '../../validators/confirm-password.vali
 export default class RegisterComponent implements OnInit{
  
   fb = inject(FormBuilder);
-
   registerForm !: FormGroup;
 
   ngOnInit(): void {
@@ -32,6 +31,7 @@ export default class RegisterComponent implements OnInit{
   }
 
   register() {
-    console.log(this.registerForm.value);
+    
   }
+  
 }
